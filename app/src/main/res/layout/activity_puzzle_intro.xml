@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PuzzleIntroActivity">
+
+    <TextView
+        android:id="@+id/puzzlerProblemLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/puzzle_problem"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/puzzleProblemIntro"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="@string/puzzle_intro"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/puzzlerProblemLabel" />
+
+    <Button
+        android:id="@+id/beginButton"
+        android:layout_width="139dp"
+        android:layout_height="67dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif"
+        android:onClick="startPuzzleProblem"
+        android:text="@string/begin"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/tileLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/beginButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/tileFive"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/five"
+            android:textSize="40sp"
+            app:layout_column="3"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/tileSeven"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/seven"
+            android:textSize="40sp"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/tileTwo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/two"
+            android:textSize="40sp"
+            app:layout_column="2"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/tileEight"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/eight"
+            android:textSize="40sp"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/tileFour"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/four"
+            android:textSize="40sp"
+            app:layout_column="3"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/tileThree"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/three"
+            android:textSize="40sp"
+            app:layout_column="3"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/tileSix"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/six"
+            android:textSize="40sp"
+            app:layout_column="2"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/tileOne"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/one"
+            android:textSize="40sp"
+            app:layout_column="0"
+            app:layout_row="0" />
+    </android.support.v7.widget.GridLayout>
+
+</android.support.constraint.ConstraintLayout>

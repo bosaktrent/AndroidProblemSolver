@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Problem Solver</string>
+    <string name="farmer_intro">
+        A farmer and his wolf, goat, and cabbage come to the edge of a river they wish to cross.
+        There is a boat at the river\'s edge that only the farmer can row. The farmer can
+        take at most one other object besides himself on a crossing, but if
+        the wolf is ever left with the goat, the wolf will eat the goat
+        similarly, if the goat is left with the cabbage, the goat will eat
+        the cabbage. Devise a sequence of crossings of the river so that
+        all four characters arrive safely on the other side.
+    </string>
+    <string name="welcome">Welcome!</string>
+    <string name="choose_problem">Choose a problem below to begin.</string>
+    <string name="farmer_problem">Farmer, Wolf, Goat, and Cabbage</string>
+    <string name="puzzle_problem">8 Puzzle</string>
+    <string name="begin">Begin</string>
+    <string name="puzzle_intro">
+        You are given a board in which numbered tiles can slide around.
+        There is one blank space that holds no tile. A legal move consists of sliding a tile into
+        the blank space if the tile is adjacent to it. The goal is to move tiles around until the
+        board looks like the final state below.
+    </string>
+    <string name="farmer_alone">Farmer Goes Alone</string>
+    <string name="farmer_takes_wolf">Farmer Takes Wolf</string>
+    <string name="farmer_takes_goat">Farmer Takes Goat</string>
+    <string name="farmer_takes_cabbage">Farmer Takes Cabbage</string>
+    <string name="current_state">Current State</string>
+    <string name="solve">Solve</string>
+    <string name="next">Next</string>
+    <string name="reset">Reset</string>
+    <string name="congrats">Congrats! You Solved the Problem!</string>
+    <string name="move_count">Move Count:</string>
+    <string name="illegal_move">Oops! That move is illegal!</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="puzzle_instructions">Click a tile to move it into the space</string>
+</resources>
